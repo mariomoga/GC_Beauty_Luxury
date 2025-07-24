@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vetrina Prodotti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/prodotti.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="catalogo-hero">
+      <div class="catalogo-header">
+        <img src="immagini/logo.png" alt="Logo" class="logo-prodotti">
+        <h1 class="catalogo-title">Catalogo</h1>
+      </div>
+    </header>
+    <main>
+      <div class="prodotti-container">
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Crema Viso Idratante" data-desc="Questo fondotinta liquido offre una copertura modulabile da media ad alta, con una formula leggera e traspirante che si fonde perfettamente con la pelle. Arricchito con acido ialuronico e vitamina E, idrata e protegge la pelle durante tutta la giornata. Il finish è naturale e luminoso, ideale per tutti i tipi di pelle, anche quelle sensibili." data-prezzo="€19,99" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Crema viso">
+          <h2>Crema Viso Idratante</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Rossetto Opaco" data-desc="Colore intenso e lunga durata" data-prezzo="€12,50" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Rossetto">
+          <h2>Rossetto Opaco</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Siero Illuminante" data-desc="Con vitamina C per una pelle radiosa" data-prezzo="€24,90" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Siero Viso">
+          <h2>Siero Illuminante</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Mascara Volume" data-desc="Ciglia lunghe e piene senza grumi" data-prezzo="€10,00" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Mascara">
+          <h2>Mascara Volume</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Tonico Rinfrescante" data-desc="Purifica e riequilibra la pelle" data-prezzo="€8,99" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Tonico">
+          <h2>Tonico Rinfrescante</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Olio Viso Nutriente" data-desc="Per una pelle luminosa e setosa" data-prezzo="€18,50" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Olio viso">
+          <h2>Olio Viso Nutriente</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Scrub Labbra" data-desc="Esfolia delicatamente le labbra" data-prezzo="€7,99" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Scrub labbra">
+          <h2>Scrub Labbra</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Crema Corpo" data-desc="Profumazione floreale e idratazione profonda" data-prezzo="€14,90" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Crema corpo">
+          <h2>Crema Corpo</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Detergente Delicato" data-desc="Adatto anche alle pelli sensibili" data-prezzo="€11,90" data-prezzo-originale="€16,00">
+          <img src="immagini/prodotto.jpg" alt="Detergente viso">
+          <h2>Detergente Delicato</h2>
+        </div>
+
+        <div class="prodotto" data-img="immagini/prodotto.jpg" data-nome="Illuminante Liquido" data-desc="Glow naturale per viso e corpo" data-prezzo="€16,00" data-prezzo-originale="€26,00">
+          <img src="immagini/prodotto.jpg" alt="Illuminante">
+          <h2>Illuminante Liquido</h2>
+        </div>
+      </div>
+
+
+        <!-- MODALE -->
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+              <img id="modal-img" src="" alt="Prodotto" />
+              <div class="modal-info">
+                <h2 id="modal-title">Titolo</h2>
+                <p id="modal-desc">Descrizione</p>
+                <p id="modal-price">
+                  <strong>Prezzo:</strong> €0.00
+                </p>
+              </div>
+              <div class="contatti">
+                <h3>Contatti</h3>
+                <div class="contatto">
+                  <a href="https://wa.me/3280738039" target="_blank" class="social-link">
+                    <img src="immagini/Whatsapp.png" alt="WhatsApp" />
+                    <span>+39 328 0738039</span>
+                  </a>
+                </div>
+                <div class="contatto">
+                  <a href="https://instagram.com/outlet_cosmetica.gc24" target="_blank" class="social-link">
+                    <img src="immagini/Instagram.png" alt="Instagram" />
+                    <span>@outlet_cosmetica.gc24</span>
+                  </a>
+                </div>
+                <div class="contatto">
+                  <a href="https://tiktok.com/@gcbeautyluxury" target="_blank" class="social-link">
+                    <img src="immagini/Tiktok.png" alt="TikTok" />
+                    <span>@gcbeautyluxury</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer-info">
+        <div class="footer-container">
+          <p class="shipping-note">
+            Tutti i prodotti hanno un costo di spedizione di <strong>€6,80</strong> con consegna in <strong>48h</strong>.
+          </p>
+          <p class="payment-methods">
+            Pagamento disponibile tramite <strong>Postepay</strong>, <strong>Bonifico</strong> o <strong>PayPal</strong>.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/prodotti.js"></script>
+  </body>
+  </html>
